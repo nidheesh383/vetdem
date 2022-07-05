@@ -5,14 +5,6 @@ import SelectSearcher from './selectSearcher';
 
 function Modal({changedata}) {
 
-  // const [changedata, setChanges] = useState();  
-  // const handleChange = (e) => {
-  //   let value = e.target.value;
-  //   console.log(value);
-  //   setChanges(value);
-  // };
-
-
   return (
     <>
     <div style={{position: 'fixed', width: '100%', height: '100%', backgroundColor: '#FFFFFF', opacity: '0.1'}}></div>
@@ -20,6 +12,7 @@ function Modal({changedata}) {
         <div style={{position: 'absolute', zIndex: '5', backgroundColor: 'white'}}> 
         <div style={{display: 'flex', flex: 1}}>
         <h1>Add Buletin</h1>
+        
         {/* <Button
     style={{
       

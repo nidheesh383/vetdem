@@ -5,6 +5,8 @@ import clinic from "../src/clinic.json"
 
 const SelectSearcher = ({changedata, handleChange}) => {
   const [data, setData] = useState(clinic);
+
+  
   return (
 
     <div className="App">
